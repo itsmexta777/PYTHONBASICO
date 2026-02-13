@@ -11,10 +11,9 @@ print("el tercer elemento de mi lista",mi_lista[2])
 #diccionarios
  
 mi_diccionario = {"mi_lista": mi_lista ,
-                  "nombre" : "mexta"
+                  "nombre" : "mexta",
                   "pi" : 3.1416,
-                  "tel" : "664858662"}
-      
+                  "tel" : "664-858662"}
 
 
 print("llave para accesar a mi diccinario mi_lista",mi_diccionario["mi_lista"])

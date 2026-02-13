@@ -1,62 +1,68 @@
 # Numeros
 print(int(7))
 print(float(7.7))
-type(7)
-type(7.7)
-print(int(1+2))
+print(type(7))
+print(type(7.7))
+print(int(1 + 2))
 print(int(10*2))
-print(int(1+4-2))
-print(float(1+2.0))
+print(int(1 + 4 -2))
+print(float(1 + 2.0))
+
 # operadores matematicos
 # +
-#
+# -
 # *
-#/
-#**
+# /
+# **
 # % Modulo
 
-print (int (2**3))
-print (int (4**8))
-print (float(10%3))
-print (float (25%4))
-print (float (16%2))
-print (float(10/3))
+print(int(2**3))
+print(int(4**8))
+print(float(10%3))
+print(float(25%4))
+print(float(16%2))
+print(float(10 / 3))
 
-# Variables
-
-print("=====variable=====")
-
-x= 100
+# variables en python
+print("=======VARIBLAES========")
+x = 100
 y = 1
-print (x + y)
+print(x + y)
 
 ventas = 1999991
-print ("Nuestras ventas fueron:",ventas)
+print("Nuestras ventas fueron: ", ventas)
 
 is_active = True
 print(is_active)
+
 game_over = False
-
-
 print(game_over)
 
+some_string = "Hola soy un string"
+print(some_string)
 
-some_string = "hola soy string"
-print (some_string)
+print("=========condicionales=====")
+edad = 18
 
-
-print("=====condicionales=====")
-edad = 15
-if (edad >= 18):
-    print("si puedes entrar a el bar ")
+if (edad>= 18):
+    print("Si puedes entrar al Bar")
 else:
-    print("no puedes entrar a el bar")
+    print("No puedes entrar al Bar")
 
+mi_numero = int(input("¿Cual es el numero que deseas verficar?"))
+print(f"El numero que desea verificar es {mi_numero}")
+if mi_numero % 2 == 0:
+    print(f"El numero {mi_numero} es par!")
+else:
+    print(f"El numero {mi_numero} es inpar!!")
 
-    mi_numero =int(input("cual es el numero que deseas verificar?"))
-    print(f"el numero que deseas verificar es{mi_numero}")
-    if mi_numero % 2 ==0:
-        print(f"el numero{mi_numero} es par ")
+def par_inpar(numero):
+    if numero % 2 == 0:
+        print(f"El numero {numero} es par!")
     else:
-        print(f"el numero {mi_numero} es in par")
+        print(f"El numero {numero} es unpae!!")
+
+print("=========FUNCION PAR_INPAR=====")
+mi_numero = int(input("¿Cual es el numero que desea verificar?"))
+print(f"El numero que desea verificar es {mi_numero}")
 print(par_inpar(mi_numero))
