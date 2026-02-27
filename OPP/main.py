@@ -1,8 +1,9 @@
 from enemigo import *
+from zombie import *
+from ogro import *
 
-class ogro(enemigo):
-    def __init__(self, puntos_energia=20, ataque=3):
-        super().__init__(tipo_enemigo='ogro', puntos_energia=puntos_energia, ataque=ataque)
+zombie = Zombie(10, 1)
+ogro = ogro (20, 3)
 
-        def habla(self):
-            print("Ogro aplastar todo")
+print(f"{zombie.get_tipo_enemigo()} tiene {zombie.puntos_energia} de energia y atacra con {zombie.ataque}")
+print(f"{ogro.get_tipo_enemigo()} tiene {ogro.puntos_energia} de energia y ataca con {ogro.ataque}")
